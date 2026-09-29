@@ -68,27 +68,27 @@ OpenArt Director acted as the central production environment rather than just an
 
 ### 01 — Hero
 
-![Ranger keyframe](./assets/ranger-keyframe.jpg)
+![Hero](./assets/hero-character.png)
 
-Establishing the tokusatsu visual language and the hero that anchors the first half of the ad.
+[View prompt →](./prompts/hero.md)
 
 ### 02 — Monster
 
-![Kaiju keyframe](./assets/kaiju-keyframe.jpg)
+![Monster](./assets/monster-character.png)
 
-Developing a practical-suit-inspired creature that stays readable in both medium and close-up shots.
+[View prompt →](./prompts/monster.md)
 
 ### 03 — Streamer
 
-![OpenArt Director storyboard](./assets/openart-director-storyboard.jpg)
+![Streamer](./assets/streamer.png)
 
-Using character references to explore coverage, performance beats, lens choices and the progression of the kaiju’s reaction.
+[View prompt →](./prompts/streamer.md)
 
 ### 04 — Environment
 
-![Final frame](./assets/final-frame.jpg)
+![Environment](./assets/environment.png)
 
-The finished piece uses the familiar reaction-video split screen to connect creator commentary and cinematic AI footage inside the same visual language.
+[View prompt →](./prompts/environment.md)
 
 ---
 
