@@ -1,11 +1,10 @@
 # OpenArt Director — AI Creative Ad Case Study
 
-[▶ Watch the final ad](./openart-ad.mp4)
+[▶ Watch the final ad](https://www.youtube.com/shorts/wSeOnk1fPMg)
 
-**28.6s · 9:16 · AI creative assessment**  
+A vertical ad created for OpenArt’s AI Content Creator creative assessment. The goal was to make the product part of the joke, not just something that appears in the end card.
+
 **Role:** concept, generation, edit, captions, sound, final delivery
-
-> A vertical ad created for OpenArt’s AI Content Creator creative assessment. The goal was to make the product part of the joke—not just something that appears in the end card.
 
 ---
 
@@ -37,20 +36,20 @@ That structure turns **directing the scene** into the product demonstration. Ins
 I handled the piece end-to-end:
 
 - Creative concept and comedic structure
-- Visual concept and character development
-- Reference asset development
-- Creative direction and shot planning in OpenArt Director
-- AI storyboard and video generation
+- Character and visual development
+- Keyframe generation
+- Shot planning and AI video generation
+- Character consistency across shots
 - Voice and music generation
 - Editing and pacing
 - English + Japanese captions
 - CTA and final delivery
 
-## Workflow & Production Stack
+## Production Stack & Workflow
 
 - **Midjourney** — initial hero, kaiju and environment concept development
 - **Nano Banana Pro** — streamer character development
-- **OpenArt Director** — central directing and orchestration environment; references, iterative shot development and scene construction
+- **OpenArt Director** — central directing and orchestration layer; references, shot development, iterative visual direction and scene construction
 - **GPT Images via OpenArt Director** — storyboard and shot generation
 - **Seedance via OpenArt Director** — animation and video generation
 - **ElevenLabs** — voice generation
@@ -59,7 +58,7 @@ I handled the piece end-to-end:
 
 The workflow started with a small set of visual references created outside OpenArt: the hero, kaiju and environment in Midjourney, and the streamer in Nano Banana Pro.
 
-I then brought those assets into OpenArt Director and developed the ad iteratively through the Director Mode chat, building the sequence shot by shot. OpenArt connected the references and direction to GPT Images for storyboard generation and Seedance for animation.
+Those assets were then brought into OpenArt Director, where I developed the ad iteratively through the Director Mode chat—building the sequence shot by shot, refining performances and framing, generating storyboard frames with GPT Images, and animating the selected shots with Seedance.
 
 OpenArt Director acted as the central production environment rather than just another generation tool in the stack.
 
@@ -67,23 +66,29 @@ OpenArt Director acted as the central production environment rather than just an
 
 ## Visual References
 
-Before directing the sequence, I created four master references to establish the characters and world of the ad.
+### 01 — Hero
 
-<table>
-  <tr>
-    <td><img src="./assets/hero-master.jpg" alt="Hero master reference" /></td>
-    <td><img src="./assets/kaiju-master.jpg" alt="Kaiju master reference" /></td>
-  </tr>
-  <tr>
-    <td><img src="./assets/environment-master.jpg" alt="Environment master reference" /></td>
-    <td><img src="./assets/streamer-master.jpg" alt="Streamer master reference" /></td>
-  </tr>
-</table>
+![Ranger keyframe](./assets/ranger-keyframe.jpg)
 
-**Hero, Kaiju & Environment:** Midjourney  
-**Streamer:** Nano Banana Pro
+Establishing the tokusatsu visual language and the hero that anchors the first half of the ad.
 
-[View the generation prompts →](./prompts/)
+### 02 — Monster
+
+![Kaiju keyframe](./assets/kaiju-keyframe.jpg)
+
+Developing a practical-suit-inspired creature that stays readable in both medium and close-up shots.
+
+### 03 — Streamer
+
+![OpenArt Director storyboard](./assets/openart-director-storyboard.jpg)
+
+Using character references to explore coverage, performance beats, lens choices and the progression of the kaiju’s reaction.
+
+### 04 — Environment
+
+![Final frame](./assets/final-frame.jpg)
+
+The finished piece uses the familiar reaction-video split screen to connect creator commentary and cinematic AI footage inside the same visual language.
 
 ---
 
