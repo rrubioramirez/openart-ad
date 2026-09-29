@@ -37,54 +37,53 @@ That structure turns **directing the scene** into the product demonstration. Ins
 I handled the piece end-to-end:
 
 - Creative concept and comedic structure
-- Character and visual development
-- Keyframe generation
-- Shot planning and AI video generation
-- Character consistency across shots
+- Visual concept and character development
+- Reference asset development
+- Creative direction and shot planning in OpenArt Director
+- AI storyboard and video generation
 - Voice and music generation
 - Editing and pacing
 - English + Japanese captions
 - CTA and final delivery
 
-## Production Stack
+## Workflow & Production Stack
 
-- **OpenArt Director** — concept development, character references and shot planning
-- **Midjourney** — character and visual development
-- **Nano Banana Pro** — image generation, refinement and compositing
-- **Seedance 2.0** — final AI video generation for selected shots
-- **ElevenLabs** — voices
+- **Midjourney** — initial hero, kaiju and environment concept development
+- **Nano Banana Pro** — streamer character development
+- **OpenArt Director** — central directing and orchestration environment; references, iterative shot development and scene construction
+- **GPT Images via OpenArt Director** — storyboard and shot generation
+- **Seedance via OpenArt Director** — animation and video generation
+- **ElevenLabs** — voice generation
 - **Suno** — music
-- **CapCut** — edit, timing, sound, captions and final delivery
+- **CapCut** — edit, pacing, captions, sound and final delivery
 
-The workflow was intentionally hybrid: I used each model for the stage where it gave me the most control instead of forcing the entire production through one tool.
+The workflow started with a small set of visual references created outside OpenArt: the hero, kaiju and environment in Midjourney, and the streamer in Nano Banana Pro.
+
+I then brought those assets into OpenArt Director and developed the ad iteratively through the Director Mode chat, building the sequence shot by shot. OpenArt connected the references and direction to GPT Images for storyboard generation and Seedance for animation.
+
+OpenArt Director acted as the central production environment rather than just another generation tool in the stack.
 
 ---
 
-## Process
+## Visual References
 
-### 01 — Ranger Keyframe
+Before directing the sequence, I created four master references to establish the characters and world of the ad.
 
-![Ranger keyframe](./assets/ranger-keyframe.jpg)
+<table>
+  <tr>
+    <td><img src="./assets/hero-master.jpg" alt="Hero master reference" /></td>
+    <td><img src="./assets/kaiju-master.jpg" alt="Kaiju master reference" /></td>
+  </tr>
+  <tr>
+    <td><img src="./assets/environment-master.jpg" alt="Environment master reference" /></td>
+    <td><img src="./assets/streamer-master.jpg" alt="Streamer master reference" /></td>
+  </tr>
+</table>
 
-Establishing the tokusatsu visual language and the hero that anchors the first half of the ad.
+**Hero, Kaiju & Environment:** Midjourney  
+**Streamer:** Nano Banana Pro
 
-### 02 — Kaiju Keyframe
-
-![Kaiju keyframe](./assets/kaiju-keyframe.jpg)
-
-Developing a practical-suit-inspired creature that stays readable in both medium and close-up shots.
-
-### 03 — Shot Planning in OpenArt Director
-
-![OpenArt Director storyboard](./assets/openart-director-storyboard.jpg)
-
-Using character references to explore coverage, performance beats, lens choices and the progression of the kaiju’s reaction.
-
-### 04 — Final Social Layout
-
-![Final frame](./assets/final-frame.jpg)
-
-The finished piece uses the familiar reaction-video split screen to connect creator commentary and cinematic AI footage inside the same visual language.
+[View the generation prompts →](./prompts/)
 
 ---
 
