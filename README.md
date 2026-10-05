@@ -1,6 +1,6 @@
 # OpenArt Director — AI Creative Ad Case Study
 
-[▶ Watch the final ad](https://www.youtube.com/shorts/wSeOnk1fPMg)
+[▶ Watch the final ad](https://robertorubioramirez.com/work/openart-director/)
 
 A vertical ad created for OpenArt’s AI Content Creator creative assessment. The goal was to make the product part of the joke, not just something that appears in the end card.
 
